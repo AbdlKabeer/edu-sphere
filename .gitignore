@@ -1,0 +1,35 @@
+# General
+.DS_Store
+*.log
+
+# Node & Next.js
+node_modules/
+.next/
+out/
+build/
+.env*.local
+
+# Django & Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+db.sqlite3
+prod_db.sqlite3
+prod_db-1.sqlite3
+media/
+staticfiles/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
